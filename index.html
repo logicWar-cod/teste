@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulário de Contato</title>
+        <link rel="stylesheet" href="style.css">
+        
+	</head>
+	
+	<body>
+        <center>
+        <form action="script.php" method="POST">
+		<div class="p">	
+            <center>   
+                <b>   <legend class="letra">Envie sua sugestão</legend> </b>
+                    
+                    <label class="letra" for="Assunto">
+                        Assunto:
+                        <input type="text" placeholder="Digite o assunto" name="assunto">
+                    </label><br><br>
+                    
+                    <label class="letra" for="nome">
+                        Nome:
+                        <input type="text" placeholder="Digite o seu nome completo" name="nome">
+                    </label><br><br>
+                    
+                    <label class="letra" for="email">
+                        E-mail:
+                        <input type="email" placeholder="Digite o seu e-mail" name="email">
+                    </label><br><br>
+                    
+                    <label class="letra" for="Mensagem">
+                        Mensagem<br>
+                        <textarea name="mensagem"  cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    </label><br>
+                
+                    <input type="submit"  value="Enviar sugestão."> <!-- botao n preciza da name so se for coda painel de login essa fita -->
+            </center>
+        </div>
+           </form>
+            
+		</form>
+        </center>
+	</body>
+</html>

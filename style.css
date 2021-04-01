@@ -1,0 +1,12 @@
+.p{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 500px;
+    padding: 5px;
+    background-color:seagreen;
+}
+legend{padding: 4px;}
+.letra{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+input[type=submit]{
+cursor: pointer;}
+body{background-color: rgb(78, 75, 75);}
